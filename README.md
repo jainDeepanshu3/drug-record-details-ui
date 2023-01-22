@@ -14,12 +14,12 @@ Download the zip file(apache-tomcat-9.0.71.zip) in your local C:\ drive.
 
 Unzip the file.
 
-Open Coomand Prompt.
+Open Command Prompt.
 
 Run below command 
 C:\apache-tomcat-9.0.71\bin\startup.bat
 
-Use below URL to lauch your UI application:
+Use below URL to launch your UI application:
 http://localhost:8083
 
 If you want to shutdown the server, use below command:
