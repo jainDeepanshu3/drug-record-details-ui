@@ -16,11 +16,12 @@ Unzip the file.
 
 Open Command Prompt.
 
-Run below command 
+Run below command to start tomcat server 
 
 C:\apache-tomcat-9.0.71\bin\startup.bat
 
 Use below URL to launch your UI application:
+
 http://localhost:8083
 
 If you want to shutdown the server, use below command:
