@@ -17,6 +17,7 @@ Unzip the file.
 Open Command Prompt.
 
 Run below command 
+
 C:\apache-tomcat-9.0.71\bin\startup.bat
 
 Use below URL to launch your UI application:
