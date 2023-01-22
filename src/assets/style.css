@@ -1,0 +1,89 @@
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 60px;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+    display: block;
+}
+
+.header-section {
+    background: #efefef;
+    padding: 12px 56px;
+    margin: 0 0 10px;
+    text-align: left;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.custom-text {
+    display: inline-block;
+    margin: 0 7px;
+    width: 40%;
+}
+
+.custom-text label {
+    display: block;
+    font-size: 12px;
+    text-align: left;
+    padding: 0 0 5px;
+}
+
+.custom-text input[type="text"] {
+    height: 26px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.custom-text button {
+    background: blue;
+    color: #fff;
+    border: 0;
+    padding: 7px 18px;
+}
+
+.table-body thead {
+    background: #efefef;
+    display: table-header-group;
+}
+
+.footer-section {
+    background: #efefef;
+    padding: 1px 17px;
+    text-align: right;
+}
+
+.table-body {
+    margin: 0 50px 50px;
+}
+
+.table-body table {
+    width: 100%;
+    border: 1px solid #efefef;
+}
+
+.table-body table tr td {
+    border-right: 1px solid #efefef;
+    border-top: 1px solid #efefef;
+    border-left: 0;
+}
+
+.table-body table thead tr th {
+    padding: 10px 0;
+}
+
+.form-wrapper {
+    margin: 17px 0;
+    padding: 0 25px;
+    /* width: 100%; */
+}
+
+.custom-text.search-button {
+    width: auto;
+}
