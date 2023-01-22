@@ -10,13 +10,13 @@ export interface Meta {
   terms:        string;
   license:      string;
   last_updated: string;
-  results:      String;
+  results:      Results;
 }
 
 export interface Results {
-  skip:  number;
-  limit: number;
-  total: number;
+  skip:  string;
+  limit: string;
+  total: string;
 }
 
 export interface Result {

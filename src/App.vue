@@ -60,7 +60,9 @@
             </tbody>
         </table>
     </div>
-
+    <div class="fetched-total-records-data">
+      <h3>Total No Of Records: {{ data.meta?.results.total}}</h3>
+  </div>
     <div class="footer-section">
         <p>&#169;Drug Record Application Finder</p>
     </div>
@@ -86,12 +88,10 @@ export default defineComponent({
           if(searchText.value === ''){
             alert("Please provide value for FDA manufacturer name field");
             console.log("value after presss",searchText.value);
+            return;
           }
-          
            const value = await findDrugRecordApplications(search,searchOptionalText);
            drugRecords.data = value;
-           const results = JSON.parse(JSON.stringify(drugRecords));
-           console.log("data-deepanshu", results);
         };
         return {searchFdaRecordApplication, ...toRefs(drugRecords), searchText,searchOptionalText};
     }
